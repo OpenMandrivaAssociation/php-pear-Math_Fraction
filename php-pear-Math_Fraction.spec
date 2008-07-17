@@ -6,7 +6,7 @@
 Summary:	%{_pearname} - Classes that represent and manipulate fractions
 Name:		php-pear-%{_pearname}
 Version:	0.4.0
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
@@ -16,7 +16,7 @@ Requires(preun): php-pear
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Classes that represent and manipulate fractions (x = a/b).
