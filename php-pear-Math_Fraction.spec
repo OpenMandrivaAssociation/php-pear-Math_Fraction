@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.4.0
-Release:	%mkrel 6
+Release:	%mkrel 7
 Summary:	Classes that represent and manipulate fractions
 License:	PHP License
 Group:		Development/PHP
